@@ -13,4 +13,4 @@ The available endpoints are:
 /login, 
 /register, 
 /blogs, 
-/blogs/new, 
+/blogs/new
