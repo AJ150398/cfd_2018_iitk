@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h5> Instructions : Use /blogs after the port (e.g. 127.0.0.1:4995/blogs) to see the movies whose analysis you have already checked. <br>
+            Use /blogs/new to see rating of a new movie. After seeing the rating, again go back to /blogs and continue. </h5>
+    <br>
+    <h2>{{ email }}'s movies</h2>
+
+    {% for blog in blogs %}
+        <h3><a href="/posts/{{ blog._id }}">{{ blog.title }}</a></h3>
+        <hr>
+    {% endfor %}
+</div>
+{% endblock %}

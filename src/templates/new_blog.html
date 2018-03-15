@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <form id="new-blog" action="/blogs/new" method="post">
+        <div class="form-group">
+            <label for="title">Enter Movie</label>
+            <input type="text" id="title" class="form-control" name="title">
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+</div>
+{% endblock %}
