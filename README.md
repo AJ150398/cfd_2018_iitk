@@ -7,6 +7,8 @@ and other concepts such as endpoints and APIs.
 
 The blog requires MongoDB to be running without authentication enabled.
 
+The available endpoints are:
+
 /
 /login
 /register
