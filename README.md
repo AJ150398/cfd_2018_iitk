@@ -9,8 +9,8 @@ The blog requires MongoDB to be running without authentication enabled.
 
 The available endpoints are:
 
-/
-/login
-/register
-/blogs
-/blogs/new
+/, 
+/login, 
+/register, 
+/blogs, 
+/blogs/new, 
